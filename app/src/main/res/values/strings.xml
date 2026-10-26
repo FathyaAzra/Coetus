@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Coetus</string>
+    <string name="coetus">Coetus</string>
+    <string name="welcome_to_coetus">Welcome to Coetus</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="coetus_description">smooth community tools with Coetus!</string>
 </resources>
