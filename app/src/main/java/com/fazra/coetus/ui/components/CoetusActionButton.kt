@@ -68,7 +68,7 @@ fun CoetusActionButton(
 }
 
 @Composable
-fun RuniqueOutlinedActionButton(
+fun CoetusOutlinedActionButton(
     text: String,
     isLoading: Boolean,
     modifier: Modifier = Modifier,
