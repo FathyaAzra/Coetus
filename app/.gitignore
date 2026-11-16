@@ -1,1 +1,8 @@
 /build
+**/google-services.json
+.gradle/
+build/
+*/build/
+local.properties
+.idea/
+*.iml

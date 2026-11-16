@@ -8,7 +8,7 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@drawable/coetus_logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/coetus_logo_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Coetus">
         <activity
@@ -22,6 +22,10 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".CoetusApplication"
+            tools:ignore="Instantiatable">
+
         </activity>
     </application>
 
