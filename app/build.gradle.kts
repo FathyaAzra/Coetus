@@ -37,7 +37,7 @@ android {
 
 dependencies {
     implementation(platform(libs.androidx.compose.bom))
-
+    implementation(libs.kotlinx.coroutines.play.services)
     implementation(platform(libs.koin.bom))
     implementation(platform(libs.firebase.bom))
     implementation(libs.firebase.auth)

@@ -1,4 +1,12 @@
+
 package com.fazra.coetus.domain.usecase.auth
 
-class SignOutUseCase {
+import com.fazra.coetus.domain.repository.AuthRepository
+
+class SignOutUseCase(
+    private val repository: AuthRepository
+) {
+    suspend operator fun invoke() {
+        repository.signOut()
+    }
 }
